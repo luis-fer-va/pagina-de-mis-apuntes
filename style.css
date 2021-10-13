@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+ body{
+   background-color: rgb(50, 108, 235) !important;
+   background-color:rgb(185, 185, 185);
+} 
+#muestra-de-notas{
+    float:left;
+    width: 50%;
+    margin-left:5vw ;
+    background-color: rgb(251, 252, 253);
+    border-radius:15pt 0pt 0pt 15pt;
+    padding: 10px;
+    height:534px;
+    box-shadow: 0px 0px 5px rgb(110, 105, 105);
+   /*  position: fixed; */
+    text-align: center;
+    overflow-y: scroll;
+    margin-top: 0;
+    padding-top:0;
+  
+}
+#muestra-de-notas::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+#muestra-de-notas::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+#muestra-de-notas::-webkit-scrollbar-button:increment,#muestra-de-notas::-webkit-scrollbar-button {
+    display: none;
+} 
+
+#muestra-de-notas::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+#muestra-de-notas::-webkit-scrollbar-thumb {
+    background-color: #141414;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+#muestra-de-notas::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+
+
+#titulo{
+    text-align: center;
+    color: rgb(224, 226, 233);
+    text-shadow: 3px 1.5px rgb(47, 46, 46);
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    background-color:rgb(41, 105, 179);
+}
+#form{
+    box-shadow: 2px 2px 15px rgb(187, 177, 177);
+    border-radius: 10pt;
+    height:350px;
+    padding: 50px;
+    width: 35%;
+    float: right;
+    margin-bottom:15px;
+    margin-right: 50px;
+    text-align: center;
+    background-color:rgb(253, 253, 253);
+}
+
+input[type="text"],input[type="search"]{
+width: 100%;
+margin-bottom:30px;
+box-shadow: 0px 0px 5px 1px  rgb(241, 241, 241);
+margin: auto;
+
+}
+textarea{
+    width: 100% !important;
+    outline: none !important;
+    border: none !important;
+    box-shadow: 0px 0px 5px 1px rgb(221, 214, 214);
+    margin-bottom: 20px;
+ 
+}
+label{
+    font-size: 1.5em;
+    font-family: 'Quicksand';
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+#buscar{
+    float: right;
+    width: 35%;
+    box-shadow: 2px 2px 15px rgb(187, 177, 177);
+    border-radius: 10pt;
+    height:auto;
+    padding: 20px;
+   height: auto;
+   text-align: center;
+   margin-bottom:15px;
+   margin-right: 50px;
+   background-color:rgb(253, 253, 253);   
+}
+input [type="submit"]{
+    margin-top: 10px !important;
+}
+
+#muestra-de-notas h1{
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    font-size:1.6em;
+    font-family: cursive;
+    letter-spacing: 1px;
+    font-family: 'Pattaya', sans-serif;
+
+  
+}
+#muestra-de-notas p{
+    text-align: justify;
+    font-size:1.2em ;
+
+
+}
+
+
